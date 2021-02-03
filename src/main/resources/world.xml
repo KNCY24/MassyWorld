@@ -35,14 +35,14 @@
 
     <product>
       <id>2</id>
-      <name>string</name>
+      <name>Donut</name>
       <logo>string</logo>
-      <cout>1.051732E7</cout>
-      <croissance>1.051732E7</croissance>
-      <revenu>1.051732E7</revenu>
-      <vitesse>3</vitesse>
-      <quantite>3</quantite>
-      <timeleft>10</timeleft>
+      <cout>103680</cout>
+      <croissance>1.12</croissance>
+      <revenu>51840</revenu>
+      <vitesse>24000</vitesse>
+      <quantite>41</quantite>
+      <timeleft>215</timeleft>
       <managerUnlocked>true</managerUnlocked>
       <palliers>
         <pallier>
@@ -59,15 +59,15 @@
 
     <product>
       <id>3</id>
-      <name>string</name>
+      <name>Film</name>
       <logo>string</logo>
-      <cout>1.051732E7</cout>
-      <croissance>1.051732E7</croissance>
-      <revenu>1.051732E7</revenu>
-      <vitesse>3</vitesse>
-      <quantite>3</quantite>
-      <timeleft>10</timeleft>
-      <managerUnlocked>true</managerUnlocked>
+      <cout>179159040</cout>
+      <croissance>1.09</croissance>
+      <revenu>89579000</revenu>
+      <vitesse>90036000</vitesse>
+      <quantite>8</quantite>
+      <timeleft>80500125</timeleft>
+      <managerUnlocked>false</managerUnlocked>
       <palliers>
         <pallier>
           <name>string</name>
