@@ -22,31 +22,31 @@
       <managerUnlocked>true</managerUnlocked>
       <palliers>
         <pallier>
-          <name>string</name>
+          <name>Citron rouge</name>
           <logo>string</logo>
-          <seuil>3</seuil>
-          <idcible>3</idcible>
-          <ratio>1.051732E7</ratio>
-          <typeratio>gain</typeratio>
-          <unlocked>true</unlocked>
+          <seuil>50</seuil>
+          <idcible>1</idcible>
+          <ratio>5</ratio>
+          <typeratio>VITESSE</typeratio>
+          <unlocked>false</unlocked>
         </pallier>
         <pallier>
-          <name>string</name>
+          <name>Citron jaune</name>
           <logo>string</logo>
-          <seuil>3</seuil>
-          <idcible>3</idcible>
-          <ratio>1.051732E7</ratio>
-          <typeratio>ange</typeratio>
-          <unlocked>true</unlocked>
+          <seuil>300</seuil>
+          <idcible>1</idcible>
+          <ratio>8</ratio>
+          <typeratio>GAIN</typeratio>
+          <unlocked>false</unlocked>
         </pallier>
         <pallier>
-          <name>string</name>
+          <name>Citron vert</name>
           <logo>string</logo>
-          <seuil>3</seuil>
-          <idcible>3</idcible>
-          <ratio>1.051732E7</ratio>
-          <typeratio>ange</typeratio>
-          <unlocked>true</unlocked>
+          <seuil>1000</seuil>
+          <idcible>1</idcible>
+          <ratio>5</ratio>
+          <typeratio>ANGE</typeratio>
+          <unlocked>false</unlocked>
         </pallier>
       </palliers>
     </product>
@@ -106,13 +106,31 @@
       <managerUnlocked>false</managerUnlocked>
       <palliers>
         <pallier>
-          <name>string</name>
+          <name>Meilleur décors</name>
           <logo>string</logo>
           <seuil>3</seuil>
           <idcible>3</idcible>
-          <ratio>1.051732E7</ratio>
-          <typeratio>ange</typeratio>
+          <ratio>3</ratio>
+          <typeratio>VITESSE</typeratio>
           <unlocked>true</unlocked>
+        </pallier>
+        <pallier>
+          <name>Meilleur acteur</name>
+          <logo>string</logo>
+          <seuil>15</seuil>
+          <idcible>3</idcible>
+          <ratio>7</ratio>
+          <typeratio>GAIN</typeratio>
+          <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+          <name>Meilleur réalisateur</name>
+          <logo>string</logo>
+          <seuil>45</seuil>
+          <idcible>3</idcible>
+          <ratio>3</ratio>
+          <typeratio>ANGE</typeratio>
+          <unlocked>false</unlocked>
         </pallier>
       </palliers>
     </product>
@@ -245,59 +263,59 @@
     <pallier>
       <name>string</name>
       <logo>string</logo>
-      <seuil>3</seuil>
-      <idcible>3</idcible>
-      <ratio>1.051732E7</ratio>
-      <typeratio>gain</typeratio>
-      <unlocked>true</unlocked>
+      <seuil>5</seuil>
+      <idcible>1</idcible>
+      <ratio>1.2</ratio>
+      <typeratio>ANGE</typeratio>
+      <unlocked>false</unlocked>
     </pallier>
     <pallier>
       <name>string</name>
       <logo>string</logo>
-      <seuil>3</seuil>
-      <idcible>3</idcible>
-      <ratio>1.051732E7</ratio>
-      <typeratio>gain</typeratio>
-      <unlocked>true</unlocked>
+      <seuil>15</seuil>
+      <idcible>2</idcible>
+      <ratio>2.2</ratio>
+      <typeratio>GAIN</typeratio>
+      <unlocked>false</unlocked>
     </pallier>
     <pallier>
       <name>string</name>
       <logo>string</logo>
-      <seuil>3</seuil>
+      <seuil>25</seuil>
       <idcible>3</idcible>
-      <ratio>1.051732E7</ratio>
-      <typeratio>gain</typeratio>
-      <unlocked>true</unlocked>
+      <ratio>1.5</ratio>
+      <typeratio>GAIN</typeratio>
+      <unlocked>false</unlocked>
     </pallier>
   </angelupgrades>
 
   <managers>
     <pallier>
-      <name>string</name>
+      <name>Mama Safari</name>
       <logo>string</logo>
-      <seuil>3</seuil>
-      <idcible>3</idcible>
-      <ratio>1.051732E7</ratio>
-      <typeratio>gain</typeratio>
+      <seuil>50</seuil>
+      <idcible>1</idcible>
+      <ratio></ratio>
+      <typeratio></typeratio>
       <unlocked>true</unlocked>
     </pallier>
     <pallier>
-      <name>string</name>
+      <name>Choupette la Chouette</name>
       <logo>string</logo>
-      <seuil>3</seuil>
-      <idcible>3</idcible>
-      <ratio>1.051732E7</ratio>
-      <typeratio>gain</typeratio>
-      <unlocked>true</unlocked>
+      <seuil>800</seuil>
+      <idcible>2</idcible>
+      <ratio></ratio>
+      <typeratio></typeratio>
+      <unlocked>false</unlocked>
     </pallier>
     <pallier>
-      <name>string</name>
+      <name>Monkey Jade</name>
       <logo>string</logo>
-      <seuil>3</seuil>
+      <seuil>15000</seuil>
       <idcible>3</idcible>
-      <ratio>1.051732E7</ratio>
-      <typeratio>gain</typeratio>
-      <unlocked>true</unlocked>
+      <ratio></ratio>
+      <typeratio></typeratio>
+      <unlocked>false</unlocked>
     </pallier>
   </managers>
 </world>
