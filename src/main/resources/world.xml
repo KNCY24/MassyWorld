@@ -30,6 +30,24 @@
           <typeratio>gain</typeratio>
           <unlocked>true</unlocked>
         </pallier>
+        <pallier>
+          <name>string</name>
+          <logo>string</logo>
+          <seuil>3</seuil>
+          <idcible>3</idcible>
+          <ratio>1.051732E7</ratio>
+          <typeratio>ange</typeratio>
+          <unlocked>true</unlocked>
+        </pallier>
+        <pallier>
+          <name>string</name>
+          <logo>string</logo>
+          <seuil>3</seuil>
+          <idcible>3</idcible>
+          <ratio>1.051732E7</ratio>
+          <typeratio>ange</typeratio>
+          <unlocked>true</unlocked>
+        </pallier>
       </palliers>
     </product>
 
@@ -45,6 +63,24 @@
       <timeleft>215</timeleft>
       <managerUnlocked>true</managerUnlocked>
       <palliers>
+        <pallier>
+          <name>string</name>
+          <logo>string</logo>
+          <seuil>3</seuil>
+          <idcible>3</idcible>
+          <ratio>1.051732E7</ratio>
+          <typeratio>ange</typeratio>
+          <unlocked>true</unlocked>
+        </pallier>
+        <pallier>
+          <name>string</name>
+          <logo>string</logo>
+          <seuil>3</seuil>
+          <idcible>3</idcible>
+          <ratio>1.051732E7</ratio>
+          <typeratio>ange</typeratio>
+          <unlocked>true</unlocked>
+        </pallier>
         <pallier>
           <name>string</name>
           <logo>string</logo>
@@ -104,6 +140,105 @@
       <typeratio>gain</typeratio>
       <unlocked>false</unlocked>
     </pallier>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
   </upgrades>
 
   <angelupgrades>
@@ -116,9 +251,45 @@
       <typeratio>gain</typeratio>
       <unlocked>true</unlocked>
     </pallier>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>true</unlocked>
+    </pallier>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>true</unlocked>
+    </pallier>
   </angelupgrades>
 
   <managers>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>true</unlocked>
+    </pallier>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>true</unlocked>
+    </pallier>
     <pallier>
       <name>string</name>
       <logo>string</logo>
