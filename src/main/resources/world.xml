@@ -64,31 +64,31 @@
       <managerUnlocked>true</managerUnlocked>
       <palliers>
         <pallier>
-          <name>string</name>
+          <name>Donut fraise</name>
           <logo>string</logo>
-          <seuil>3</seuil>
-          <idcible>3</idcible>
-          <ratio>1.051732E7</ratio>
-          <typeratio>ange</typeratio>
-          <unlocked>true</unlocked>
+          <seuil>80</seuil>
+          <idcible>2</idcible>
+          <ratio>3</ratio>
+          <typeratio>VITESSE</typeratio>
+          <unlocked>false</unlocked>
         </pallier>
         <pallier>
-          <name>string</name>
+          <name>Donut caramel</name>
           <logo>string</logo>
-          <seuil>3</seuil>
-          <idcible>3</idcible>
-          <ratio>1.051732E7</ratio>
-          <typeratio>ange</typeratio>
-          <unlocked>true</unlocked>
+          <seuil>120</seuil>
+          <idcible>2</idcible>
+          <ratio>4</ratio>
+          <typeratio>GAIN</typeratio>
+          <unlocked>false</unlocked>
         </pallier>
         <pallier>
-          <name>string</name>
+          <name>Donut chocolat</name>
           <logo>string</logo>
-          <seuil>3</seuil>
-          <idcible>3</idcible>
-          <ratio>1.051732E7</ratio>
-          <typeratio>ange</typeratio>
-          <unlocked>true</unlocked>
+          <seuil>200</seuil>
+          <idcible>2</idcible>
+          <ratio>2</ratio>
+          <typeratio>ANGE</typeratio>
+          <unlocked>false</unlocked>
         </pallier>
       </palliers>
     </product>
@@ -138,87 +138,87 @@
 
 <allunlocks>
     <pallier>
-      <name>string</name>
+      <name>Doubler gain</name>
       <logo>string</logo>
-      <seuil>3</seuil>
-      <idcible>3</idcible>
-      <ratio>1.051732E7</ratio>
-      <typeratio>ange</typeratio>
+      <seuil>30</seuil>
+      <idcible>0</idcible>
+      <ratio>2</ratio>
+      <typeratio>GAIN</typeratio>
       <unlocked>false</unlocked>
     </pallier>
   </allunlocks>
 
   <upgrades>
     <pallier>
-      <name>string</name>
+      <name>Tripler vitesse </name>
       <logo>string</logo>
-      <seuil>3</seuil>
+      <seuil>300</seuil>
+      <idcible>3</idcible>
+      <ratio>3</ratio>
+      <typeratio>GAIN</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Doubler production</name>
+      <logo>string</logo>
+      <seuil>30</seuil>
+      <idcible>3</idcible>
+      <ratio>3</ratio>
+      <typeratio>VITESSE</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Doubler gain</name>
+      <logo>string</logo>
+      <seuil>50</seuil>
+      <idcible>0</idcible>
+      <ratio>2</ratio>
+      <typeratio>GAIN</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Limonade pétillante</name>
+      <logo>string</logo>
+      <seuil>200</seuil>
+      <idcible>1</idcible>
+      <ratio>0,05</ratio>
+      <typeratio>ANGE</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Donut géant</name>
+      <logo>string</logo>
+      <seuil>110</seuil>
+      <idcible>2</idcible>
+      <ratio>0,01</ratio>
+      <typeratio>ANGE</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Film </name>
+      <logo>string</logo>
+      <seuil>50</seuil>
       <idcible>3</idcible>
       <ratio>1.051732E7</ratio>
       <typeratio>gain</typeratio>
       <unlocked>false</unlocked>
     </pallier>
     <pallier>
-      <name>string</name>
+      <name>Citron multicolore</name>
       <logo>string</logo>
-      <seuil>3</seuil>
-      <idcible>3</idcible>
-      <ratio>1.051732E7</ratio>
-      <typeratio>gain</typeratio>
+      <seuil>150</seuil>
+      <idcible>0</idcible>
+      <ratio>3</ratio>
+      <typeratio>VITESSE</typeratio>
       <unlocked>false</unlocked>
     </pallier>
     <pallier>
-      <name>string</name>
+      <name>Donut multicolore</name>
       <logo>string</logo>
-      <seuil>3</seuil>
-      <idcible>3</idcible>
-      <ratio>1.051732E7</ratio>
-      <typeratio>gain</typeratio>
-      <unlocked>false</unlocked>
-    </pallier>
-    <pallier>
-      <name>string</name>
-      <logo>string</logo>
-      <seuil>3</seuil>
-      <idcible>3</idcible>
-      <ratio>1.051732E7</ratio>
-      <typeratio>gain</typeratio>
-      <unlocked>false</unlocked>
-    </pallier>
-    <pallier>
-      <name>string</name>
-      <logo>string</logo>
-      <seuil>3</seuil>
-      <idcible>3</idcible>
-      <ratio>1.051732E7</ratio>
-      <typeratio>gain</typeratio>
-      <unlocked>false</unlocked>
-    </pallier>
-    <pallier>
-      <name>string</name>
-      <logo>string</logo>
-      <seuil>3</seuil>
-      <idcible>3</idcible>
-      <ratio>1.051732E7</ratio>
-      <typeratio>gain</typeratio>
-      <unlocked>false</unlocked>
-    </pallier>
-    <pallier>
-      <name>string</name>
-      <logo>string</logo>
-      <seuil>3</seuil>
-      <idcible>3</idcible>
-      <ratio>1.051732E7</ratio>
-      <typeratio>gain</typeratio>
-      <unlocked>false</unlocked>
-    </pallier>
-    <pallier>
-      <name>string</name>
-      <logo>string</logo>
-      <seuil>3</seuil>
-      <idcible>3</idcible>
-      <ratio>1.051732E7</ratio>
-      <typeratio>gain</typeratio>
+      <seuil>200</seuil>
+      <idcible>1</idcible>
+      <ratio>3</ratio>
+      <typeratio>GAIN</typeratio>
       <unlocked>false</unlocked>
     </pallier>
     <pallier>
