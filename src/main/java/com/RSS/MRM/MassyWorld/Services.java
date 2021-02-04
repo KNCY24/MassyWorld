@@ -6,7 +6,6 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
-import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 
@@ -34,6 +33,7 @@ public class Services {
             Marshaller m = cont.createMarshaller();
             m.marshal(world, new FileOutputStream("world.xml"));
         } catch (Exception e) {
+            System.out.println("erreur marshall");
             e.printStackTrace();
         }
     }
