@@ -261,7 +261,7 @@
 
   <angelupgrades>
     <pallier>
-      <name>string</name>
+      <name>Angel Sacrifice</name>
       <logo>string</logo>
       <seuil>5</seuil>
       <idcible>1</idcible>
@@ -270,7 +270,7 @@
       <unlocked>false</unlocked>
     </pallier>
     <pallier>
-      <name>string</name>
+      <name>Angel Mutiny</name>
       <logo>string</logo>
       <seuil>15</seuil>
       <idcible>2</idcible>
@@ -279,7 +279,7 @@
       <unlocked>false</unlocked>
     </pallier>
     <pallier>
-      <name>string</name>
+      <name>Angel Rebellion</name>
       <logo>string</logo>
       <seuil>25</seuil>
       <idcible>3</idcible>
