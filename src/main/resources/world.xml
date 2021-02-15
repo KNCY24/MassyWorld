@@ -250,7 +250,7 @@
     </pallier>
     <pallier>
       <name>upgrade supreme</name>
-      <logo>string</logo>
+      <logo>fireworks.png</logo>
       <seuil>1000000</seuil>
       <idcible>0</idcible>
       <ratio>5</ratio>
@@ -292,7 +292,7 @@
   <managers>
     <pallier>
       <name>Mama Safari</name>
-      <logo>string</logo>
+      <logo>safari.png</logo>
       <seuil>50</seuil>
       <idcible>1</idcible>
       <ratio></ratio>
@@ -301,7 +301,7 @@
     </pallier>
     <pallier>
       <name>Choupette la Chouette</name>
-      <logo>string</logo>
+      <logo>owl.png</logo>
       <seuil>800</seuil>
       <idcible>2</idcible>
       <ratio></ratio>
@@ -310,7 +310,7 @@
     </pallier>
     <pallier>
       <name>Monkey Jade</name>
-      <logo>string</logo>
+      <logo>monkey.png</logo>
       <seuil>15000</seuil>
       <idcible>3</idcible>
       <ratio></ratio>
