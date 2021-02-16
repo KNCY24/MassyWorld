@@ -10,14 +10,11 @@ import java.io.IOException;
 @Provider
 
 public class CORSResponseFilter implements ContainerResponseFilter {
-    public void filter(ContainerRequestContext requestContext,
-                       ContainerResponseContext responseContext)
-            throws IOException {
-        MultivaluedMap<String, Object> headers =
-                responseContext.getHeaders();
+    public void filter(ContainerRequestContext requestContext,ContainerResponseContext responseContext) throws IOException {
+        MultivaluedMap<String, Object> headers = responseContext.getHeaders();
         headers.add("Access-Control-Allow-Origin", "*");
         headers.add("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT, OPTIONS");
-                headers.add("Access-Control-Allow-Headers", "X-Requested-With, Content-Type, X-Codingpedia, authorization,X-User");
+        headers.add("Access-Control-Allow-Headers", "X-Requested-With, Content-Type, X-Codingpedia, authorization,X-User");
     }
 }
 
