@@ -387,6 +387,60 @@
       <typeratio>gain</typeratio>
       <unlocked>false</unlocked>
     </pallier>
+    <pallier>
+      <name>Tripler impression </name>
+      <logo>icones/imprimante3.png</logo>
+      <seuil>10 000</seuil>
+      <idcible>4</idcible>
+      <ratio>3</ratio>
+      <typeratio>vitesse</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name> Press People  </name>
+      <logo>icones/scandal.png</logo>
+      <seuil>5000</seuil>
+      <idcible>4</idcible>
+      <ratio>2</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Drone delivery </name>
+      <logo>icones/drone.png</logo>
+      <seuil>10 000</seuil>
+      <idcible>5</idcible>
+      <ratio>3</ratio>
+      <typeratio>vitesse</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Camion pizza </name>
+      <logo>icones/camion.png</logo>
+      <seuil>2000</seuil>
+      <idcible>5</idcible>
+      <ratio>2</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Super patin </name>
+      <logo>icones/patin.png</logo>
+      <seuil>5000</seuil>
+      <idcible>6</idcible>
+      <ratio>2</ratio>
+      <typeratio>vitesse</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Nouvel equipement </name>
+      <logo>icones/maillot.png</logo>
+      <seuil>3500</seuil>
+      <idcible>6</idcible>
+      <ratio>2</ratio>
+      <typeratio>gain</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
   </upgrades>
 
   <angelupgrades>
