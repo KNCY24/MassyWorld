@@ -1,6 +1,6 @@
 <world>
-  <name>MassyWorld</name>
-  <logo>MW.jpg</logo>
+  <name>Massy World</name>
+  <logo>icones/MW.png</logo>
   <money>1000</money>
   <score>20500</score>
   <totalangels>12</totalangels>
@@ -12,7 +12,7 @@
     <product>
       <id>1</id>
       <name>Limonade</name>
-      <logo>limonade.png</logo>
+      <logo>icones/limonade.png</logo>
       <cout>4</cout>
       <croissance>1.07</croissance>
       <revenu>1</revenu>
@@ -23,7 +23,7 @@
       <palliers>
         <pallier>
           <name>Citron rouge</name>
-          <logo>citronrouge.png</logo>
+          <logo>icones/citronrouge.png</logo>
           <seuil>50</seuil>
           <idcible>1</idcible>
           <ratio>5</ratio>
@@ -32,7 +32,7 @@
         </pallier>
         <pallier>
           <name>Citron jaune</name>
-          <logo>citronjaune.png</logo>
+          <logo>icones/citronjaune.png</logo>
           <seuil>300</seuil>
           <idcible>1</idcible>
           <ratio>8</ratio>
@@ -41,7 +41,7 @@
         </pallier>
         <pallier>
           <name>Citron vert</name>
-          <logo>citronvert.png</logo>
+          <logo>icones/citronvert.png</logo>
           <seuil>1000</seuil>
           <idcible>1</idcible>
           <ratio>5</ratio>
@@ -54,7 +54,7 @@
     <product>
       <id>2</id>
       <name>Donut</name>
-      <logo>donut.png</logo>
+      <logo>icones/donut.png</logo>
       <cout>103680</cout>
       <croissance>1.12</croissance>
       <revenu>51840</revenu>
@@ -65,7 +65,7 @@
       <palliers>
         <pallier>
           <name>Donut fraise</name>
-          <logo>donutfraise.png</logo>
+          <logo>icones/donutfraise.png</logo>
           <seuil>80</seuil>
           <idcible>2</idcible>
           <ratio>3</ratio>
@@ -74,7 +74,7 @@
         </pallier>
         <pallier>
           <name>Donut caramel</name>
-          <logo>donutcaramel.png</logo>
+          <logo>icones/donutcaramel.png</logo>
           <seuil>120</seuil>
           <idcible>2</idcible>
           <ratio>4</ratio>
@@ -83,7 +83,7 @@
         </pallier>
         <pallier>
           <name>Donut chocolat</name>
-          <logo>donutchocolat.png</logo>
+          <logo>icones/donutchocolat.png</logo>
           <seuil>200</seuil>
           <idcible>2</idcible>
           <ratio>2</ratio>
@@ -96,7 +96,7 @@
     <product>
       <id>3</id>
       <name>Film</name>
-      <logo>film.png</logo>
+      <logo>icones/film.png</logo>
       <cout>179159040</cout>
       <croissance>1.09</croissance>
       <revenu>89579000</revenu>
@@ -107,7 +107,7 @@
       <palliers>
         <pallier>
           <name>Meilleur décors</name>
-          <logo>oscarBronze.png</logo>
+          <logo>icones/oscarBronze.png</logo>
           <seuil>3</seuil>
           <idcible>3</idcible>
           <ratio>3</ratio>
@@ -116,7 +116,7 @@
         </pallier>
         <pallier>
           <name>Meilleur acteur</name>
-          <logo>oscarArgent.png</logo>
+          <logo>icones/oscarArgent.png</logo>
           <seuil>15</seuil>
           <idcible>3</idcible>
           <ratio>7</ratio>
@@ -125,7 +125,7 @@
         </pallier>
         <pallier>
           <name>Meilleur réalisateur</name>
-          <logo>oscarOr.png</logo>
+          <logo>icones/oscarOr.png</logo>
           <seuil>45</seuil>
           <idcible>3</idcible>
           <ratio>3</ratio>
@@ -269,7 +269,7 @@
 <allunlocks>
     <pallier>
       <name>Doubler gain</name>
-      <logo>doubleGain1.png</logo>
+      <logo>icones/doubleGain1.png</logo>
       <seuil>30</seuil>
       <idcible>0</idcible>
       <ratio>2</ratio>
@@ -281,7 +281,7 @@
   <upgrades>
     <pallier>
       <name>Tripler vitesse </name>
-      <logo>vitesse3.png</logo>
+      <logo>icones/vitesse3.png</logo>
       <seuil>10 000</seuil>
       <idcible>0</idcible>
       <ratio>3</ratio>
@@ -290,7 +290,7 @@
     </pallier>
     <pallier>
       <name>Doubler production</name>
-      <logo>vitesse2.png</logo>
+      <logo>icones/vitesse2.png</logo>
       <seuil>100</seuil>
       <idcible>3</idcible>
       <ratio>2</ratio>
@@ -299,7 +299,7 @@
     </pallier>
     <pallier>
       <name>Doubler gain</name>
-      <logo>doubleGain2.png</logo>
+      <logo>icones/doubleGain2.png</logo>
       <seuil>50</seuil>
       <idcible>2</idcible>
       <ratio>2</ratio>
@@ -308,7 +308,7 @@
     </pallier>
     <pallier>
       <name>Citronier</name>
-      <logo>citronier.png</logo>
+      <logo>icones/citronier.png</logo>
       <seuil>200</seuil>
       <idcible>1</idcible>
       <ratio>0,05</ratio>
@@ -317,7 +317,7 @@
     </pallier>
     <pallier>
       <name>Donut géant</name>
-      <logo>donutgeant.png</logo>
+      <logo>icones/donutgeant.png</logo>
       <seuil>110</seuil>
       <idcible>2</idcible>
       <ratio>0,01</ratio>
@@ -326,7 +326,7 @@
     </pallier>
     <pallier>
       <name>Decor swap </name>
-      <logo>decor.png</logo>
+      <logo>icones/decor.png</logo>
       <seuil>200</seuil>
       <idcible>3</idcible>
       <ratio>0,02</ratio>
@@ -335,7 +335,7 @@
     </pallier>
     <pallier>
       <name>Citron multicolore</name>
-      <logo>citronmulti.png</logo>
+      <logo>icones/citronmulti.png</logo>
       <seuil>150</seuil>
       <idcible>0</idcible>
       <ratio>3</ratio>
@@ -344,7 +344,7 @@
     </pallier>
     <pallier>
       <name>Donut multicolore</name>
-      <logo>donutmulti.jpg</logo>
+      <logo>icones/donutmulti.jpg</logo>
       <seuil>200</seuil>
       <idcible>2</idcible>
       <ratio>3</ratio>
@@ -353,7 +353,7 @@
     </pallier>
     <pallier>
       <name>donut swap</name>
-      <logo>swapdonut.png</logo>
+      <logo>icones/swapdonut.png</logo>
       <seuil>5000</seuil>
       <idcible>2</idcible>
       <ratio>0,05</ratio>
@@ -362,7 +362,7 @@
     </pallier>
     <pallier>
       <name>citron swap</name>
-      <logo>swaplemon.png</logo>
+      <logo>icones/swaplemon.png</logo>
       <seuil>10 000</seuil>
       <idcible>1</idcible>
       <ratio>3</ratio>
@@ -371,7 +371,7 @@
     </pallier>
     <pallier>
       <name>acteur swap</name>
-      <logo>swapacteur.png</logo>
+      <logo>icones/swapacteur.png</logo>
       <seuil>500</seuil>
       <idcible>3</idcible>
       <ratio>4</ratio>
@@ -380,7 +380,7 @@
     </pallier>
     <pallier>
       <name>upgrade supreme</name>
-      <logo>fireworks.png</logo>
+      <logo>icones/fireworks.png</logo>
       <seuil>1000000</seuil>
       <idcible>0</idcible>
       <ratio>5</ratio>
@@ -446,7 +446,7 @@
   <angelupgrades>
     <pallier>
       <name>Angel Sacrifice</name>
-      <logo>angelsacri.png</logo>
+      <logo>icones/angelsacri.png</logo>
       <seuil>5</seuil>
       <idcible>1</idcible>
       <ratio>1.2</ratio>
@@ -455,7 +455,7 @@
     </pallier>
     <pallier>
       <name>Angel Mutiny</name>
-      <logo>angelmutiny.png</logo>
+      <logo>icones/angelmutiny.png</logo>
       <seuil>15</seuil>
       <idcible>2</idcible>
       <ratio>2.2</ratio>
@@ -464,7 +464,7 @@
     </pallier>
     <pallier>
       <name>Angel Rebellion</name>
-      <logo>angelrebellion.png</logo>
+      <logo>icones/angelrebellion.png</logo>
       <seuil>25</seuil>
       <idcible>3</idcible>
       <ratio>1.5</ratio>
@@ -476,7 +476,7 @@
   <managers>
     <pallier>
       <name>Mama Safari</name>
-      <logo>safari.png</logo>
+      <logo>icones/safari.png</logo>
       <seuil>50</seuil>
       <idcible>1</idcible>
       <ratio></ratio>
@@ -485,7 +485,7 @@
     </pallier>
     <pallier>
       <name>Choupette la Chouette</name>
-      <logo>owl.png</logo>
+      <logo>icones/owl.png</logo>
       <seuil>800</seuil>
       <idcible>2</idcible>
       <ratio></ratio>
@@ -494,7 +494,7 @@
     </pallier>
     <pallier>
       <name>Monkey Jade</name>
-      <logo>monkey.png</logo>
+      <logo>icones/monkey.png</logo>
       <seuil>15000</seuil>
       <idcible>3</idcible>
       <ratio></ratio>
