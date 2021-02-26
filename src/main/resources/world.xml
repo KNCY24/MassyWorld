@@ -4,7 +4,7 @@
   <money>1000</money>
   <score>20500</score>
   <totalangels>12</totalangels>
-  <activeangels>4</activeangels>
+  <activeangels>6</activeangels>
   <angelbonus>2</angelbonus>
   <lastupdate>10</lastupdate>
 
@@ -19,7 +19,7 @@
       <vitesse>500</vitesse>
       <quantite>25</quantite>
       <timeleft>120</timeleft>
-      <managerUnlocked>true</managerUnlocked>
+      <managerUnlocked>false</managerUnlocked>
       <palliers>
         <pallier>
           <name>Citron rouge</name>
@@ -61,7 +61,7 @@
       <vitesse>24000</vitesse>
       <quantite>41</quantite>
       <timeleft>215</timeleft>
-      <managerUnlocked>true</managerUnlocked>
+      <managerUnlocked>false</managerUnlocked>
       <palliers>
         <pallier>
           <name>Donut fraise</name>
@@ -112,7 +112,7 @@
           <idcible>3</idcible>
           <ratio>3</ratio>
           <typeratio>vitesse</typeratio>
-          <unlocked>true</unlocked>
+          <unlocked>false</unlocked>
         </pallier>
         <pallier>
           <name>Meilleur acteur</name>
@@ -146,7 +146,7 @@
     <vitesse>3000</vitesse>
     <quantite>20</quantite>
     <timeleft>1500</timeleft>
-    <managerUnlocked>true</managerUnlocked>
+    <managerUnlocked>false</managerUnlocked>
     <palliers>
       <pallier>
         <name>Imprimante</name>
@@ -188,7 +188,7 @@
     <vitesse>12000</vitesse>
     <quantite>15</quantite>
     <timeleft>18000</timeleft>
-    <managerUnlocked>true</managerUnlocked>
+    <managerUnlocked>false</managerUnlocked>
     <palliers>
       <pallier>
         <name>Four a pizza</name>
@@ -230,7 +230,7 @@
     <vitesse>384000</vitesse>
     <quantite>5</quantite>
     <timeleft>200000</timeleft>
-    <managerUnlocked>true</managerUnlocked>
+    <managerUnlocked>false</managerUnlocked>
     <palliers>
       <pallier>
         <name>Patinoire</name>
@@ -358,7 +358,7 @@
       <idcible>2</idcible>
       <ratio>0,5</ratio>
       <typeratio>ange</typeratio>
-      <unlocked>true</unlocked>
+      <unlocked>false</unlocked>
     </pallier>
     <pallier>
       <name>citron swap</name>
@@ -371,7 +371,7 @@
     </pallier>
     <pallier>
       <name>acteur swap</name>
-      <logo>icones/swapacteur.png</logo>
+      <logo>icones/swapactor.png</logo>
       <seuil>500</seuil>
       <idcible>3</idcible>
       <ratio>4</ratio>
@@ -481,7 +481,7 @@
       <idcible>1</idcible>
       <ratio></ratio>
       <typeratio></typeratio>
-      <unlocked>true</unlocked>
+      <unlocked>false</unlocked>
     </pallier>
     <pallier>
       <name>Choupette la Chouette</name>
