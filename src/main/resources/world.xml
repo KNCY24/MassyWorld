@@ -4,7 +4,7 @@
   <money>1000</money>
   <score>20500</score>
   <totalangels>12</totalangels>
-  <activeangels>4</activeangels>
+  <activeangels>6</activeangels>
   <angelbonus>2</angelbonus>
   <lastupdate>10</lastupdate>
 
@@ -19,7 +19,7 @@
       <vitesse>500</vitesse>
       <quantite>25</quantite>
       <timeleft>120</timeleft>
-      <managerUnlocked>true</managerUnlocked>
+      <managerUnlocked>false</managerUnlocked>
       <palliers>
         <pallier>
           <name>Citron rouge</name>
@@ -61,7 +61,7 @@
       <vitesse>24000</vitesse>
       <quantite>41</quantite>
       <timeleft>215</timeleft>
-      <managerUnlocked>true</managerUnlocked>
+      <managerUnlocked>false</managerUnlocked>
       <palliers>
         <pallier>
           <name>Donut fraise</name>
@@ -69,7 +69,7 @@
           <seuil>80</seuil>
           <idcible>2</idcible>
           <ratio>3</ratio>
-          <typeratio>VITESSE</typeratio>
+          <typeratio>vitesse</typeratio>
           <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -103,7 +103,7 @@
       <vitesse>3000</vitesse>
       <quantite>20</quantite>
       <timeleft>1500</timeleft>
-      <managerUnlocked>true</managerUnlocked>
+      <managerUnlocked>false</managerUnlocked>
       <palliers>
         <pallier>
           <name>Imprimante</name>
@@ -111,7 +111,7 @@
           <seuil>100</seuil>
           <idcible>4</idcible>
           <ratio>2</ratio>
-          <typeratio>VITESSE</typeratio>
+          <typeratio>vitesse</typeratio>
           <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -120,7 +120,7 @@
           <seuil>200</seuil>
           <idcible>4</idcible>
           <ratio>2</ratio>
-          <typeratio>GAIN</typeratio>
+          <typeratio>gain</typeratio>
           <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -129,7 +129,7 @@
           <seuil>300</seuil>
           <idcible>4</idcible>
           <ratio>3</ratio>
-          <typeratio>ANGE</typeratio>
+          <typeratio>ange</typeratio>
           <unlocked>false</unlocked>
         </pallier>
       </palliers>
@@ -145,7 +145,7 @@
       <vitesse>384000</vitesse>
       <quantite>5</quantite>
       <timeleft>200000</timeleft>
-      <managerUnlocked>true</managerUnlocked>
+      <managerUnlocked>false</managerUnlocked>
       <palliers>
         <pallier>
           <name>Patinoire</name>
@@ -187,7 +187,7 @@
     <vitesse>12000</vitesse>
     <quantite>15</quantite>
     <timeleft>18000</timeleft>
-    <managerUnlocked>true</managerUnlocked>
+    <managerUnlocked>false</managerUnlocked>
     <palliers>
       <pallier>
         <name>Four a pizza</name>
@@ -195,7 +195,7 @@
         <seuil>50</seuil>
         <idcible>5</idcible>
         <ratio>2</ratio>
-        <typeratio>VITESSE</typeratio>
+        <typeratio>vitesse</typeratio>
         <unlocked>false</unlocked>
       </pallier>
       <pallier>
@@ -204,7 +204,7 @@
         <seuil>100</seuil>
         <idcible>5</idcible>
         <ratio>3</ratio>
-        <typeratio>GAIN</typeratio>
+        <typeratio>gain</typeratio>
         <unlocked>false</unlocked>
       </pallier>
       <pallier>
@@ -237,7 +237,7 @@
           <idcible>3</idcible>
           <ratio>3</ratio>
           <typeratio>vitesse</typeratio>
-          <unlocked>true</unlocked>
+          <unlocked>false</unlocked>
         </pallier>
         <pallier>
           <name>Meilleur acteur</name>
@@ -374,7 +374,7 @@
       <idcible>-1</idcible>
       <ratio>0,5</ratio>
       <typeratio>ange</typeratio>
-      <unlocked>true</unlocked>
+      <unlocked>false</unlocked>
     </pallier>
     <pallier>
       <name> Press People  </name>
@@ -479,7 +479,7 @@
       <idcible>1</idcible>
       <ratio></ratio>
       <typeratio></typeratio>
-      <unlocked>true</unlocked>
+      <unlocked>false</unlocked>
     </pallier>
     <pallier>
       <name>Choupette la Chouette</name>
