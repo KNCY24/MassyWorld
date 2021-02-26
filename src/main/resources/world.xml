@@ -69,7 +69,7 @@
           <seuil>80</seuil>
           <idcible>2</idcible>
           <ratio>3</ratio>
-          <typeratio>VITESSE</typeratio>
+          <typeratio>vitesse</typeratio>
           <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -154,7 +154,7 @@
         <seuil>100</seuil>
         <idcible>4</idcible>
         <ratio>2</ratio>
-        <typeratio>VITESSE</typeratio>
+        <typeratio>vitesse</typeratio>
         <unlocked>false</unlocked>
       </pallier>
       <pallier>
@@ -163,7 +163,7 @@
         <seuil>200</seuil>
         <idcible>4</idcible>
         <ratio>2</ratio>
-        <typeratio>GAIN</typeratio>
+        <typeratio>gain</typeratio>
         <unlocked>false</unlocked>
       </pallier>
       <pallier>
@@ -172,7 +172,7 @@
         <seuil>300</seuil>
         <idcible>4</idcible>
         <ratio>3</ratio>
-        <typeratio>ANGE</typeratio>
+        <typeratio>ange</typeratio>
         <unlocked>false</unlocked>
       </pallier>
     </palliers>
@@ -196,7 +196,7 @@
         <seuil>50</seuil>
         <idcible>5</idcible>
         <ratio>2</ratio>
-        <typeratio>VITESSE</typeratio>
+        <typeratio>vitesse</typeratio>
         <unlocked>false</unlocked>
       </pallier>
       <pallier>
@@ -205,7 +205,7 @@
         <seuil>100</seuil>
         <idcible>5</idcible>
         <ratio>3</ratio>
-        <typeratio>GAIN</typeratio>
+        <typeratio>gain</typeratio>
         <unlocked>false</unlocked>
       </pallier>
       <pallier>
@@ -270,7 +270,7 @@
     <pallier>
       <name>Doubler gain</name>
       <logo>icones/doubleGain1.png</logo>
-      <seuil>30</seuil>
+      <seuil>10</seuil>
       <idcible>0</idcible>
       <ratio>2</ratio>
       <typeratio>gain</typeratio>
