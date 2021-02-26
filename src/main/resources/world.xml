@@ -300,7 +300,7 @@
       <logo>icones/donutgeant.png</logo>
       <seuil>110</seuil>
       <idcible>-1</idcible>
-      <ratio>1</ratio>
+      <ratio>2</ratio>
       <typeratio>ange</typeratio>
       <unlocked>false</unlocked>
     </pallier>
@@ -318,7 +318,7 @@
       <logo>icones/citronier.png</logo>
       <seuil>200</seuil>
       <idcible>-1</idcible>
-      <ratio>2</ratio>
+      <ratio>3</ratio>
       <typeratio>ange</typeratio>
       <unlocked>false</unlocked>
     </pallier>
@@ -327,7 +327,7 @@
       <logo>icones/decor.png</logo>
       <seuil>200</seuil>
       <idcible>-1</idcible>
-      <ratio>3</ratio>
+      <ratio>4</ratio>
       <typeratio>ange</typeratio>
       <unlocked>false</unlocked>
     </pallier>
