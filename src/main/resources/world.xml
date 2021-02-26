@@ -27,7 +27,7 @@
           <seuil>50</seuil>
           <idcible>1</idcible>
           <ratio>5</ratio>
-          <typeratio>VITESSE</typeratio>
+          <typeratio>vitesse</typeratio>
           <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -36,7 +36,7 @@
           <seuil>300</seuil>
           <idcible>1</idcible>
           <ratio>8</ratio>
-          <typeratio>GAIN</typeratio>
+          <typeratio>gain</typeratio>
           <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -45,7 +45,7 @@
           <seuil>1000</seuil>
           <idcible>1</idcible>
           <ratio>5</ratio>
-          <typeratio>ANGE</typeratio>
+          <typeratio>ange</typeratio>
           <unlocked>false</unlocked>
         </pallier>
       </palliers>
@@ -78,7 +78,7 @@
           <seuil>120</seuil>
           <idcible>2</idcible>
           <ratio>4</ratio>
-          <typeratio>GAIN</typeratio>
+          <typeratio>gain</typeratio>
           <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -87,13 +87,11 @@
           <seuil>200</seuil>
           <idcible>2</idcible>
           <ratio>2</ratio>
-          <typeratio>ANGE</typeratio>
+          <typeratio>ange</typeratio>
           <unlocked>false</unlocked>
         </pallier>
       </palliers>
     </product>
-
-
 
     <product>
       <id>4</id>
@@ -137,7 +135,6 @@
       </palliers>
     </product>
 
-
     <product>
       <id>6</id>
       <name>Hockey</name>
@@ -156,7 +153,7 @@
           <seuil>100</seuil>
           <idcible>6</idcible>
           <ratio>2</ratio>
-          <typeratio>VITESSE</typeratio>
+          <typeratio>vitesse</typeratio>
           <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -165,7 +162,7 @@
           <seuil>200</seuil>
           <idcible>6</idcible>
           <ratio>2</ratio>
-          <typeratio>GAIN</typeratio>
+          <typeratio>gain</typeratio>
           <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -174,55 +171,53 @@
           <seuil>500</seuil>
           <idcible>6</idcible>
           <ratio>3</ratio>
-          <typeratio>ANGE</typeratio>
+          <typeratio>ange</typeratio>
           <unlocked>false</unlocked>
         </pallier>
       </palliers>
     </product>
 
-    <product>
-      <id>5</id>
-      <name>Pizza</name>
-      <logo>icones/pizza.png</logo>
-      <cout>8640</cout>
-      <croissance>1.13</croissance>
-      <revenu>4320</revenu>
-      <vitesse>12000</vitesse>
-      <quantite>15</quantite>
-      <timeleft>18000</timeleft>
-      <managerUnlocked>true</managerUnlocked>
-      <palliers>
-        <pallier>
-          <name>Four a pizza</name>
-          <logo>icones/four.png</logo>
-          <seuil>50</seuil>
-          <idcible>5</idcible>
-          <ratio>2</ratio>
-          <typeratio>VITESSE</typeratio>
-          <unlocked>false</unlocked>
-        </pallier>
-        <pallier>
-          <name>Livraison pizza</name>
-          <logo>icones/livraison.png</logo>
-          <seuil>100</seuil>
-          <idcible>5</idcible>
-          <ratio>3</ratio>
-          <typeratio>GAIN</typeratio>
-          <unlocked>false</unlocked>
-        </pallier>
-        <pallier>
-          <name>Restaurant pizza</name>
-          <logo>icones/restaurant.png</logo>
-          <seuil>200</seuil>
-          <idcible>5</idcible>
-          <ratio>4</ratio>
-          <typeratio>ANGE</typeratio>
-          <unlocked>false</unlocked>
-        </pallier>
-      </palliers>
-    </product>
-
-
+  <product>
+    <id>5</id>
+    <name>Pizza</name>
+    <logo>icones/pizza.png</logo>
+    <cout>8640</cout>
+    <croissance>1.13</croissance>
+    <revenu>4320</revenu>
+    <vitesse>12000</vitesse>
+    <quantite>15</quantite>
+    <timeleft>18000</timeleft>
+    <managerUnlocked>true</managerUnlocked>
+    <palliers>
+      <pallier>
+        <name>Four a pizza</name>
+        <logo>icones/four.png</logo>
+        <seuil>50</seuil>
+        <idcible>5</idcible>
+        <ratio>2</ratio>
+        <typeratio>VITESSE</typeratio>
+        <unlocked>false</unlocked>
+      </pallier>
+      <pallier>
+        <name>Livraison pizza</name>
+        <logo>icones/livraison.png</logo>
+        <seuil>100</seuil>
+        <idcible>5</idcible>
+        <ratio>3</ratio>
+        <typeratio>GAIN</typeratio>
+        <unlocked>false</unlocked>
+      </pallier>
+      <pallier>
+        <name>Restaurant pizza</name>
+        <logo>icones/restaurant.png</logo>
+        <seuil>200</seuil>
+        <idcible>5</idcible>
+        <ratio>4</ratio>
+        <typeratio>ange</typeratio>
+        <unlocked>false</unlocked>
+      </pallier>
+    </palliers>
+  </product>
     <product>
       <id>3</id>
       <name>Film</name>
@@ -241,7 +236,7 @@
           <seuil>3</seuil>
           <idcible>3</idcible>
           <ratio>3</ratio>
-          <typeratio>VITESSE</typeratio>
+          <typeratio>vitesse</typeratio>
           <unlocked>true</unlocked>
         </pallier>
         <pallier>
@@ -250,7 +245,7 @@
           <seuil>15</seuil>
           <idcible>3</idcible>
           <ratio>7</ratio>
-          <typeratio>GAIN</typeratio>
+          <typeratio>gain</typeratio>
           <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -259,12 +254,13 @@
           <seuil>45</seuil>
           <idcible>3</idcible>
           <ratio>3</ratio>
-          <typeratio>ANGE</typeratio>
+          <typeratio>ange</typeratio>
           <unlocked>false</unlocked>
         </pallier>
       </palliers>
     </product>
-</products>
+
+  </products>
 
 
 
@@ -275,7 +271,7 @@
       <seuil>30</seuil>
       <idcible>0</idcible>
       <ratio>2</ratio>
-      <typeratio>GAIN</typeratio>
+      <typeratio>gain</typeratio>
       <unlocked>false</unlocked>
     </pallier>
   </allunlocks>
@@ -287,52 +283,43 @@
       <seuil>50</seuil>
       <idcible>2</idcible>
       <ratio>2</ratio>
-      <typeratio>GAIN</typeratio>
+      <typeratio>gain</typeratio>
       <unlocked>false</unlocked>
     </pallier>
     <pallier>
-      <name>Doubler production</name>
-      <logo>icones/vitesse2.png</logo>
-      <seuil>100</seuil>
-      <idcible>3</idcible>
-      <ratio>2</ratio>
-      <typeratio>VITESSE</typeratio>
-      <unlocked>false</unlocked>
-    </pallier>
+    <name>Doubler production</name>
+    <logo>icones/vitesse2.png</logo>
+    <seuil>100</seuil>
+    <idcible>3</idcible>
+    <ratio>2</ratio>
+    <typeratio>vitesse</typeratio>
+    <unlocked>false</unlocked>
+  </pallier>
     <pallier>
       <name>Donut géant</name>
       <logo>icones/donutgeant.png</logo>
       <seuil>110</seuil>
       <idcible>-1</idcible>
-      <ratio>0,01</ratio>
-      <typeratio>ANGE</typeratio>
+      <ratio>0,1</ratio>
+      <typeratio>ange</typeratio>
       <unlocked>false</unlocked>
     </pallier>
     <pallier>
-      <name>Citron multicolore</name>
-      <logo>icones/citronmulti.png</logo>
-      <seuil>150</seuil>
-      <idcible>0</idcible>
-      <ratio>3</ratio>
-      <typeratio>VITESSE</typeratio>
-      <unlocked>false</unlocked>
-    </pallier>
-    <pallier>
-      <name>Donut multicolore</name>
-      <logo>icones/donutmulti.png</logo>
-      <seuil>200</seuil>
-      <idcible>2</idcible>
-      <ratio>3</ratio>
-      <typeratio>GAIN</typeratio>
-      <unlocked>false</unlocked>
-    </pallier>
+    <name>Citron multicolore</name>
+    <logo>icones/citronmulti.png</logo>
+    <seuil>150</seuil>
+    <idcible>0</idcible>
+    <ratio>3</ratio>
+    <typeratio>vitesse</typeratio>
+    <unlocked>false</unlocked>
+  </pallier>
     <pallier>
       <name>Citronier</name>
       <logo>icones/citronier.png</logo>
       <seuil>200</seuil>
       <idcible>-1</idcible>
-      <ratio>0,05</ratio>
-      <typeratio>ANGE</typeratio>
+      <ratio>0,5</ratio>
+      <typeratio>ange</typeratio>
       <unlocked>false</unlocked>
     </pallier>
     <pallier>
@@ -342,6 +329,15 @@
       <idcible>-1</idcible>
       <ratio>0,02</ratio>
       <typeratio>ange</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Donut multicolore</name>
+      <logo>icones/donutmulti.png</logo>
+      <seuil>200</seuil>
+      <idcible>2</idcible>
+      <ratio>3</ratio>
+      <typeratio>gain</typeratio>
       <unlocked>false</unlocked>
     </pallier>
     <pallier>
@@ -372,22 +368,13 @@
       <unlocked>false</unlocked>
     </pallier>
     <pallier>
-      <name>Super patin </name>
-      <logo>icones/patin.png</logo>
-      <seuil>5000</seuil>
-      <idcible>6</idcible>
-      <ratio>2</ratio>
-      <typeratio>vitesse</typeratio>
-      <unlocked>false</unlocked>
-    </pallier>
-    <pallier>
       <name>donut swap</name>
       <logo>icones/swapdonut.png</logo>
       <seuil>5000</seuil>
       <idcible>-1</idcible>
-      <ratio>0,05</ratio>
+      <ratio>0,5</ratio>
       <typeratio>ange</typeratio>
-      <unlocked>false</unlocked>
+      <unlocked>true</unlocked>
     </pallier>
     <pallier>
       <name> Press People  </name>
@@ -399,11 +386,11 @@
       <unlocked>false</unlocked>
     </pallier>
     <pallier>
-      <name>Drone delivery </name>
-      <logo>icones/drone.png</logo>
-      <seuil>10 000</seuil>
-      <idcible>5</idcible>
-      <ratio>3</ratio>
+      <name>Super patin </name>
+      <logo>icones/patin.png</logo>
+      <seuil>5000</seuil>
+      <idcible>6</idcible>
+      <ratio>2</ratio>
       <typeratio>vitesse</typeratio>
       <unlocked>false</unlocked>
     </pallier>
@@ -435,6 +422,15 @@
       <unlocked>false</unlocked>
     </pallier>
     <pallier>
+      <name>Drone delivery </name>
+      <logo>icones/drone.png</logo>
+      <seuil>10 000</seuil>
+      <idcible>5</idcible>
+      <ratio>3</ratio>
+      <typeratio>vitesse</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
       <name>upgrade supreme</name>
       <logo>icones/fireworks.png</logo>
       <seuil>1000000</seuil>
@@ -443,7 +439,7 @@
       <typeratio>gain</typeratio>
       <unlocked>false</unlocked>
     </pallier>
-</upgrades>
+  </upgrades>
 
   <angelupgrades>
     <pallier>
@@ -452,7 +448,7 @@
       <seuil>5</seuil>
       <idcible>1</idcible>
       <ratio>1.2</ratio>
-      <typeratio>ANGE</typeratio>
+      <typeratio>ange</typeratio>
       <unlocked>false</unlocked>
     </pallier>
     <pallier>
@@ -461,7 +457,7 @@
       <seuil>15</seuil>
       <idcible>2</idcible>
       <ratio>2.2</ratio>
-      <typeratio>GAIN</typeratio>
+      <typeratio>gain</typeratio>
       <unlocked>false</unlocked>
     </pallier>
     <pallier>
@@ -470,7 +466,7 @@
       <seuil>25</seuil>
       <idcible>3</idcible>
       <ratio>5</ratio>
-      <typeratio>GAIN</typeratio>
+      <typeratio>gain</typeratio>
       <unlocked>false</unlocked>
     </pallier>
   </angelupgrades>
@@ -497,7 +493,7 @@
     <pallier>
       <name>Monkey Jade</name>
       <logo>icones/monkey.png</logo>
-      <seuil>1500</seuil>
+      <seuil>2000</seuil>
       <idcible>3</idcible>
       <ratio></ratio>
       <typeratio></typeratio>
@@ -506,7 +502,7 @@
     <pallier>
       <name>Couscous Rescousse</name>
       <logo>icones/couscous.png</logo>
-      <seuil>2000</seuil>
+      <seuil>5000</seuil>
       <idcible>4</idcible>
       <ratio></ratio>
       <typeratio></typeratio>
@@ -515,7 +511,7 @@
     <pallier>
       <name>Sarou Faistout</name>
       <logo>icones/sarou.png</logo>
-      <seuil>5000</seuil>
+      <seuil>8000</seuil>
       <idcible>5</idcible>
       <ratio></ratio>
       <typeratio></typeratio>
@@ -524,7 +520,7 @@
     <pallier>
       <name>Bibiche la quiche</name>
       <logo>icones/bibiche.png</logo>
-      <seuil>8000</seuil>
+      <seuil>10000</seuil>
       <idcible>6</idcible>
       <ratio></ratio>
       <typeratio></typeratio>
