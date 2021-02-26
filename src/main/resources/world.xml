@@ -332,7 +332,7 @@
       <unlocked>false</unlocked>
     </pallier>
     <pallier>
-      <name>Donut multicolore</name>
+      <name>Donut multicolor</name>
       <logo>icones/donutmulti.png</logo>
       <seuil>200</seuil>
       <idcible>2</idcible>
