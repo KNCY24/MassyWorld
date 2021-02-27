@@ -21,6 +21,6 @@ public class Webservice {
     @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     public Response getWorld(@Context HttpServletRequest request) {
         String username = request.getHeader("X-user");
-        return Response.ok(services.getWorld(username)).build();
+        return Response.ok(services.getWorld()).build();
     }
 }
