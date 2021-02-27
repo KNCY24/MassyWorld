@@ -1,12 +1,15 @@
 package com.RSS.MRM.MassyWorld;
 
+import com.RSS.MRM.MassyWorld.generated.PallierType;
+import com.RSS.MRM.MassyWorld.generated.PalliersType;
+import com.RSS.MRM.MassyWorld.generated.ProductType;
+
 import javax.servlet.http.HttpServletRequest;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import javax.xml.bind.JAXBException;
 
 @Path("generic")
 public class Webservice {
@@ -21,6 +24,24 @@ public class Webservice {
     @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     public Response getWorld(@Context HttpServletRequest request) {
         String username = request.getHeader("X-user");
-        return Response.ok(services.getWorld()).build();
+        return Response.ok(services.getWorld(username)).build();
     }
+
+    @PUT
+    @Path("/product")
+    @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+    public void setProduct(ProductType newproduct, @Context HttpServletRequest request) throws JAXBException {
+        String username = request.getHeader("X-user");
+        services.updateProduct(username,newproduct);
+    }
+
+    @PUT
+    @Path("/manager")
+    @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+    public void setManager(PallierType newmanager, @Context HttpServletRequest request) throws JAXBException {
+        String username = request.getHeader("X-user");
+        services.updateManager(username,newmanager);
+    }
+
+
 }
