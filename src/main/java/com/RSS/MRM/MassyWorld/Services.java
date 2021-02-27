@@ -80,16 +80,21 @@ public class Services {
         if (product == null) { return false;}
 
     // vérifier la variation de quantité
+    //si qtchange > 0 : achat produit
+    //si qtchange = 0 : lancement production
         int qtchange = newproduct.getQuantite() - product.getQuantite();
         if (qtchange > 0) {
             double capital = world.getMoney();
             double multiplicateur =0;
+            double newcout = product.getCout();
             for(int i=0;i<qtchange;i++){
                 multiplicateur = multiplicateur + (Math.pow(product.getCroissance(),i));
+                newcout = newcout * product.getCroissance();
             }
             double cout = product.getCout()*multiplicateur;
             world.setMoney(capital-cout);
             product.setQuantite(qtchange);
+            product.setCout(newcout);
         } else {
             world.setLastupdate(System.currentTimeMillis());
             product.setTimeleft(product.getVitesse());
