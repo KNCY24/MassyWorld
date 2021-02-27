@@ -40,15 +40,44 @@ public class Services {
             Marshaller m = cont.createMarshaller();
             m.marshal(world, new FileOutputStream(username+"-world.xml"));
         } catch (Exception e) {
-            System.out.println("erreur marshall");
+            System.out.println("Erreur world.xml : "+e.getMessage());
             e.printStackTrace();
         }
     }
 
     public World getWorld(String username) {
+        updateWorld(username);
         return readWorldFromXml(username);
     }
 
+
+    public Boolean updateWorld(String username) {
+        World world = readWorldFromXml(username);
+        List<ProductType> products = world.getProducts().getProduct();
+        long tEcoule = System.currentTimeMillis() - world.getLastupdate();
+
+        if(tEcoule >=0 ){
+            for(ProductType p : products){
+                if(p.isManagerUnlocked()==false) {
+                    if(p.getTimeleft() <= tEcoule ){
+                        world.setScore(world.getScore() + p.getRevenu());
+                        world.setMoney(world.getMoney() + p.getRevenu());
+                    } else{
+                        p.setTimeleft(p.getTimeleft()-tEcoule);
+                    }
+                }else{
+                    int qtProduit = (int) (tEcoule / p.getVitesse());
+                    world.setMoney(world.getMoney()+(qtProduit*p.getRevenu()));
+                    world.setScore(world.getScore()+(qtProduit*p.getRevenu()));
+                    long tRestant = tEcoule % p.getVitesse();
+                    if(tRestant > 0) p.setTimeleft(tRestant);
+                }
+            }
+        }
+        world.setLastupdate(System.currentTimeMillis());
+        saveWorldToXml(world,username);
+        return true;
+    }
 
     private ProductType findProductById(World world, int idProduct) {
         ProductType product = new ProductType();
