@@ -14,12 +14,12 @@ public class Services {
     public Services () {
     }
 
-    public World readWorldFromXml(String username) {
+    public World readWorldFromXml() {
         World world = new World ();
         try {
             JAXBContext cont = JAXBContext.newInstance(World.class);
             Unmarshaller u = cont.createUnmarshaller();
-            InputStream input = getClass().getClassLoader().getResourceAsStream(username+"-world.xml");
+            InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
             world = (World) u.unmarshal(input);
         } catch (JAXBException e) {
             e.printStackTrace();
@@ -27,20 +27,19 @@ public class Services {
         return world;
     }
 
-    public void saveWorldToXml (World world,String username) {
+    public void saveWorldToXml (World world) {
         try {
             JAXBContext cont = JAXBContext.newInstance(World.class);
             Marshaller m = cont.createMarshaller();
-            m.marshal(world, new FileOutputStream(username+"-world.xml"));
+            m.marshal(world, new FileOutputStream("world.xml"));
         } catch (Exception e) {
             System.out.println("erreur marshall");
             e.printStackTrace();
         }
     }
 
-    public World getWorld(String username) {
-
-        return readWorldFromXml(username);
+    public World getWorld() {
+        return readWorldFromXml();
     }
 
 }
