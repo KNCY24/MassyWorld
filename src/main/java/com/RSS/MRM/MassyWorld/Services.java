@@ -9,6 +9,8 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.util.List;
@@ -23,12 +25,17 @@ public class Services {
         try {
             JAXBContext cont = JAXBContext.newInstance(World.class);
             Unmarshaller u = cont.createUnmarshaller();
-            InputStream input = getClass().getClassLoader().getResourceAsStream(username+"-world.xml");
-            if(input == null){
+            String worldname=username+"-world.xml";
+            InputStream input = null;
+            try {
+                input = new FileInputStream(worldname);
+            }
+            catch (Exception e) {
                 input = getClass().getClassLoader().getResourceAsStream("world.xml");
             }
+
             world = (World) u.unmarshal(input);
-        } catch (JAXBException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return world;
@@ -46,7 +53,7 @@ public class Services {
     }
 
     public World getWorld(String username) {
-        updateWorld(username);
+        //updateWorld(username);
         return readWorldFromXml(username);
     }
 
@@ -83,7 +90,7 @@ public class Services {
         ProductType product = new ProductType();
         List<ProductType> products = world.getProducts().getProduct();
         for(ProductType p : products){
-            if(p.getId() == idProduct) product = p;
+            if(p.getId() == idProduct) return p;
             else product = null;
         }
         return product;
@@ -106,7 +113,7 @@ public class Services {
         World world = getWorld(username);
     // trouver le produit entré en paramètre
         ProductType product = findProductById(world, newproduct.getId());
-        if (product == null) { return false;}
+        if (product == null) return false;
 
     // vérifier la variation de quantité
     //si qtchange > 0 : achat produit
@@ -122,7 +129,7 @@ public class Services {
             }
             double cout = product.getCout()*multiplicateur;
             world.setMoney(capital-cout);
-            product.setQuantite(qtchange);
+            product.setQuantite(newproduct.getQuantite());
             product.setCout(newcout);
         } else {
             world.setLastupdate(System.currentTimeMillis());

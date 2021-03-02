@@ -342,7 +342,7 @@
     </pallier>
     <pallier>
       <name>acteur swap</name>
-      <logo>icones/swapacteur.png</logo>
+      <logo>icones/swapactor.png</logo>
       <seuil>500</seuil>
       <idcible>3</idcible>
       <ratio>4</ratio>

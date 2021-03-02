@@ -3,8 +3,10 @@ package com.RSS.MRM.MassyWorld;
 import com.RSS.MRM.MassyWorld.generated.PallierType;
 import com.RSS.MRM.MassyWorld.generated.PalliersType;
 import com.RSS.MRM.MassyWorld.generated.ProductType;
+import com.RSS.MRM.MassyWorld.generated.World;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
@@ -28,7 +30,7 @@ public class Webservice {
     }
 
     @PUT
-    @Path("/product")
+    @Path("product")
     @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     public void setProduct(ProductType newproduct, @Context HttpServletRequest request) throws JAXBException {
         String username = request.getHeader("X-user");
@@ -36,7 +38,7 @@ public class Webservice {
     }
 
     @PUT
-    @Path("/manager")
+    @Path("manager")
     @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     public void setManager(PallierType newmanager, @Context HttpServletRequest request) throws JAXBException {
         String username = request.getHeader("X-user");
