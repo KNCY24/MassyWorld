@@ -45,5 +45,21 @@ public class Webservice {
         services.updateManager(username,newmanager);
     }
 
+    @PUT
+    @Path("upgrade")
+    @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+    public void setUpgrade(PallierType newuprade, @Context HttpServletRequest request) throws JAXBException {
+        String username = request.getHeader("X-user");
+        services.updateUpgrade(username,newuprade);
+    }
+
+    @GET
+    @Path("delete")
+    @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+    public Response deleteWorld(@Context HttpServletRequest request) throws JAXBException {
+        String username = request.getHeader("X-user");
+        return Response.ok(services.delete(username)).build();
+    }
+
 
 }

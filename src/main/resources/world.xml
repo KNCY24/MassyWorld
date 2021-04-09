@@ -1,12 +1,12 @@
 <world>
   <name>Massy World</name>
   <logo>icones/MW.png</logo>
-  <money>1000</money>
-  <score>20500</score>
-  <totalangels>12</totalangels>
-  <activeangels>6</activeangels>
-  <angelbonus>2</angelbonus>
-  <lastupdate>10</lastupdate>
+  <money>0</money>
+  <score>0</score>
+  <totalangels>0</totalangels>
+  <activeangels>0</activeangels>
+  <angelbonus>0</angelbonus>
+  <lastupdate>0</lastupdate>
 
   <products>
     <product>
@@ -16,9 +16,9 @@
       <cout>4</cout>
       <croissance>1.07</croissance>
       <revenu>1</revenu>
-      <vitesse>500</vitesse>
-      <quantite>25</quantite>
-      <timeleft>120</timeleft>
+      <vitesse>5000</vitesse>
+      <quantite>0</quantite>
+      <timeleft>0</timeleft>
       <managerUnlocked>false</managerUnlocked>
       <palliers>
         <pallier>
@@ -58,9 +58,9 @@
       <cout>103680</cout>
       <croissance>1.12</croissance>
       <revenu>51840</revenu>
-      <vitesse>24000</vitesse>
-      <quantite>41</quantite>
-      <timeleft>215</timeleft>
+      <vitesse>45000</vitesse>
+      <quantite>0</quantite>
+      <timeleft>0</timeleft>
       <managerUnlocked>false</managerUnlocked>
       <palliers>
         <pallier>
@@ -100,9 +100,9 @@
       <cout>60</cout>
       <croissance>1.15</croissance>
       <revenu>60</revenu>
-      <vitesse>3000</vitesse>
-      <quantite>20</quantite>
-      <timeleft>1500</timeleft>
+      <vitesse>15000</vitesse>
+      <quantite>0</quantite>
+      <timeleft>0</timeleft>
       <managerUnlocked>false</managerUnlocked>
       <palliers>
         <pallier>
@@ -142,9 +142,9 @@
       <cout>14929920</cout>
       <croissance>1.10</croissance>
       <revenu>7464000</revenu>
-      <vitesse>384000</vitesse>
-      <quantite>5</quantite>
-      <timeleft>200000</timeleft>
+      <vitesse>65000</vitesse>
+      <quantite>0</quantite>
+      <timeleft>0</timeleft>
       <managerUnlocked>false</managerUnlocked>
       <palliers>
         <pallier>
@@ -184,9 +184,9 @@
     <cout>8640</cout>
     <croissance>1.13</croissance>
     <revenu>4320</revenu>
-    <vitesse>12000</vitesse>
-    <quantite>15</quantite>
-    <timeleft>18000</timeleft>
+    <vitesse>30000</vitesse>
+    <quantite>0</quantite>
+    <timeleft>0</timeleft>
     <managerUnlocked>false</managerUnlocked>
     <palliers>
       <pallier>
@@ -225,9 +225,9 @@
       <cout>179159040</cout>
       <croissance>1.09</croissance>
       <revenu>89579000</revenu>
-      <vitesse>1536000</vitesse>
-      <quantite>8</quantite>
-      <timeleft>500000</timeleft>
+      <vitesse>75000</vitesse>
+      <quantite>0</quantite>
+      <timeleft>0</timeleft>
       <managerUnlocked>false</managerUnlocked>
       <palliers>
         <pallier>
