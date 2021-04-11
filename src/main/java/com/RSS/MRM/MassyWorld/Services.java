@@ -67,8 +67,8 @@ public class Services {
                 if(p.isManagerUnlocked()==false) {
                     if(p.getTimeleft() !=0) {
                         if (p.getTimeleft() <= tEcoule) {
-                            world.setScore(Math.round((world.getScore() + (p.getRevenu()* (1+(world.getActiveangels()*world.getAngelbonus()/100))))*100 ));
-                            world.setMoney( Math.round((world.getMoney() + (p.getRevenu()* (1+(world.getActiveangels()*world.getAngelbonus()/100))))*100 ));
+                            world.setScore(world.getScore() + (p.getRevenu()* (1+(world.getActiveangels()*world.getAngelbonus()/100))));
+                            world.setMoney(world.getMoney() + (p.getRevenu()* (1+(world.getActiveangels()*world.getAngelbonus()/100))));
                             p.setTimeleft(0);
                         } else {
                             p.setTimeleft(p.getTimeleft() - tEcoule);
@@ -76,8 +76,8 @@ public class Services {
                     }
                 }else{
                     int qtProduit = (int) (tEcoule / p.getVitesse());
-                    world.setMoney(Math.round(world.getMoney()+(qtProduit*p.getRevenu()* (1+(world.getActiveangels()*world.getAngelbonus()/100)))*100 ));
-                    world.setScore(Math.round((world.getScore()+(qtProduit*p.getRevenu()* (1+(world.getActiveangels()*world.getAngelbonus()/100))))*100) );
+                    world.setMoney(world.getMoney()+(qtProduit*p.getRevenu()* (1+(world.getActiveangels()*world.getAngelbonus()/100))));
+                    world.setScore(world.getScore()+(qtProduit*p.getRevenu()* (1+(world.getActiveangels()*world.getAngelbonus()/100))));
                     long tRestant = tEcoule % p.getVitesse();
                     if(tRestant > 0) p.setTimeleft(tRestant);
                 }
@@ -150,9 +150,9 @@ public class Services {
                 newcout = newcout * product.getCroissance();
             }
             double cout = product.getCout()*multiplicateur;
-            world.setMoney(Math.round((capital-cout)*100));
+            world.setMoney(capital-cout);
             product.setQuantite(newproduct.getQuantite());
-            product.setCout(Math.round(newcout*100));
+            product.setCout(newcout);
             List<PallierType> allunlocks = world.getAllunlocks().getPallier();
             List<PallierType> unlocks = product.getPalliers().getPallier();
             for (PallierType unlock : unlocks) {
@@ -192,7 +192,7 @@ public class Services {
         product.setManagerUnlocked(true);
         double capital = world.getMoney();
         double cout = manager.getSeuil();
-        world.setMoney(Math.round((capital-cout)*100));
+        world.setMoney(capital-cout);
 
     // sauvegarder les changements au monde
         saveWorldToXml(world,username);
@@ -204,7 +204,7 @@ public class Services {
         switch(newunlock.getTyperatio()){
             case ANGE:
                 world.setActiveangels(world.getActiveangels()+ (int) newunlock.getRatio());
-                world.setAngelbonus((int)world.getActiveangels()*2);
+                world.setAngelbonus((int)newunlock.getRatio()*2 + world.getAngelbonus());
                 break;
             case GAIN:
                 if(newunlock.getIdcible() == 0){
@@ -215,9 +215,13 @@ public class Services {
                 break;
             case VITESSE:
                 if(newunlock.getIdcible() == 0){
-                    for (ProductType p: products) p.setVitesse((int) (p.getVitesse()/newunlock.getRatio()));
+                    for (ProductType p: products) {
+                        p.setVitesse((int) (p.getVitesse()/newunlock.getRatio()));
+                        p.setTimeleft((int) (p.getTimeleft()/newunlock.getRatio()));
+                    }
                 }else {
                     product.setVitesse((int) (product.getVitesse()/newunlock.getRatio()));
+                    product.setTimeleft((int) (product.getTimeleft()/newunlock.getRatio()));
                 }
                 break;
         }
@@ -240,7 +244,7 @@ public class Services {
         switch(upgrade.getTyperatio()){
             case ANGE:
                 world.setActiveangels(world.getActiveangels()+(int) upgrade.getRatio());
-                world.setAngelbonus((int)world.getActiveangels()*2);
+                world.setAngelbonus((int)upgrade.getRatio()*2 + world.getAngelbonus());
                 break;
             case GAIN:
                 if(upgrade.getIdcible() == 0){
@@ -256,7 +260,10 @@ public class Services {
                 break;
             case VITESSE:
                 if(upgrade.getIdcible() == 0){
-                    for (ProductType p: products) p.setVitesse((int) (p.getVitesse()/upgrade.getRatio()));
+                    for (ProductType p: products) {
+                        p.setVitesse((int) (p.getVitesse()/upgrade.getRatio()));
+                        p.setTimeleft((int) (p.getTimeleft()/upgrade.getRatio()));
+                    }
                 }else {
                     // trouver le produit correspondant à l'upgrade
                     ProductType product = findProductById(world, upgrade.getIdcible());
@@ -264,6 +271,7 @@ public class Services {
                         return false;
                     }
                     product.setVitesse((int) (product.getVitesse()/upgrade.getRatio()));
+                    product.setTimeleft((int) (product.getTimeleft()/upgrade.getRatio()));
                 }
                 break;
         }
@@ -275,7 +283,7 @@ public class Services {
         }else {
             double capital = world.getMoney();
             double cout = upgrade.getSeuil();
-            world.setMoney(Math.round((capital - cout)*100));
+            world.setMoney(capital - cout);
         }
 
         // sauvegarder les changements au monde
@@ -299,10 +307,10 @@ public class Services {
         if(nbA <0) nbA =0;
 
         World newWorld = (World) u.unmarshal(input);
-        newWorld.setScore(Math.round(score*100));
+        newWorld.setScore(score);
         newWorld.setTotalangels((int)(totalA+nbA));
         newWorld.setActiveangels((int)(activeA+nbA));
-        newWorld.setAngelbonus(bonusA);
+        newWorld.setAngelbonus((int)nbA*2 + bonusA);
         saveWorldToXml(newWorld,username);
         return newWorld;
     }
